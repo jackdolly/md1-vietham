@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm</title>
+</head>
+<body>
+<script>
+    //bài 1: in ra các số từ 1->100
+    function inracacso() {
+        for (let i = 1; i <= 100; i++) {
+            document.write(i + "-");
+        }
+    }
+
+    //bài 2: nhận vào 1 số, in ra các số từ 1 đến số đó.
+    let n = +prompt("nhập vào một số bất kỳ:");
+    function inracacso(){
+        for (let i =1; i <= n; i++){
+            document.write(i + "-");
+        }
+    }
+
+    //bài 3:nhận vào một số, trả về bình phương số đó.
+    let n = +prompt("nhập vào một số");
+    let binhphuong = binh_phuong(n,n)
+    function binh_phuong(n,n){
+        return n * n;
+    }
+    document.write("bình phương số nhập là:" + n + "*" + n + "là" +binhphuong)
+
+    //bài 4:
+</script>
+</body>
+</html>
